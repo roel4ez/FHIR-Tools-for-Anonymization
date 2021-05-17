@@ -21,6 +21,7 @@ namespace Microsoft.Health.Fhir.Anonymizer.Benchmarks
     [ShortRunJob(RuntimeMoniker.NetCoreApp31)]
     [ShortRunJob(RuntimeMoniker.NetCoreApp50)]
     [MemoryDiagnoser]
+    [CsvMeasurementsExporter]
     [RPlotExporter]
     public class Processors
     {
