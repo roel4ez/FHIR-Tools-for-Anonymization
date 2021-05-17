@@ -48,6 +48,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Anony
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Anonymizer.Stu3.CommandLineTool", "src\Microsoft.Health.Fhir.Anonymizer.Stu3.CommandLineTool\Microsoft.Health.Fhir.Anonymizer.Stu3.CommandLineTool.csproj", "{DA3123C7-D0C4-4636-8A85-DF1F52A04794}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks", "Benchmarks", "{9470FFC4-576A-4972-AA00-7F8AB3E9EAA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Anonymizer.Benchmarks", "Microsoft.Health.Fhir.Anonymizer.Benchmarks\Microsoft.Health.Fhir.Anonymizer.Benchmarks.csproj", "{E29720E6-E4D2-460F-80E0-DFFACF5D17DD}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\Microsoft.Health.Fhir.Anonymizer.Shared.CommandLineTool\Microsoft.Health.Fhir.Anonymizer.Shared.CommandLineTool.projitems*{140255c7-6c80-4a3c-a248-ae8cdfdcf907}*SharedItemsImports = 13
@@ -122,6 +126,10 @@ Global
 		{DA3123C7-D0C4-4636-8A85-DF1F52A04794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3123C7-D0C4-4636-8A85-DF1F52A04794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3123C7-D0C4-4636-8A85-DF1F52A04794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29720E6-E4D2-460F-80E0-DFFACF5D17DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29720E6-E4D2-460F-80E0-DFFACF5D17DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29720E6-E4D2-460F-80E0-DFFACF5D17DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29720E6-E4D2-460F-80E0-DFFACF5D17DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +153,7 @@ Global
 		{57035793-441B-4347-935C-3D19CE52C709} = {4273D1F5-D916-4291-8B60-7D74202D425E}
 		{8BAD1364-4C47-443A-95E9-DB624FDF78C8} = {4273D1F5-D916-4291-8B60-7D74202D425E}
 		{DA3123C7-D0C4-4636-8A85-DF1F52A04794} = {4273D1F5-D916-4291-8B60-7D74202D425E}
+		{E29720E6-E4D2-460F-80E0-DFFACF5D17DD} = {9470FFC4-576A-4972-AA00-7F8AB3E9EAA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19A940B3-FA97-4729-AC91-EE68070BCFC1}
